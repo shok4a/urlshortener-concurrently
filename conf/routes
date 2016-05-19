@@ -1,0 +1,3 @@
+GET     /                           controllers.Application.index
+POST    /                           controllers.Application.create
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

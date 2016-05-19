@@ -1,0 +1,11 @@
+@(arg: String, result: String)(implicit messages: Messages)
+
+@main {
+
+<form method="post" action="/">
+    <textarea type="text" name="arg" style="width:100%;" rows="30">@arg</textarea>
+    <button type="submit">Submit</button>
+</form>
+
+<textarea type="text" style="width:100%;" rows="30">@result</textarea>
+}
